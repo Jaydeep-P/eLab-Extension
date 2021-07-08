@@ -1,0 +1,13 @@
+{
+  "name": "SRM eLab Helper",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Makes the question text in SRM eLab selectable automatically.",
+  "icons": { "128": "logo.png" },
+  "content_scripts": [
+   {
+      "matches": ["https://care.srmrmp.edu.in/*","https://care.srmist.edu.in/*"],
+      "js": ["extension.js"]
+    }
+   ]
+}
