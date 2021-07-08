@@ -1,5 +1,5 @@
 # eLab
-This extension will allow you to select and copy the question on eLab.
+This extension will allow you to select and copy the question on eLab. 
 
 ## Installation instructions
 Place this extracted folder in some place where you don't mind it. (ex.- "Documents/eLab/")
@@ -8,6 +8,9 @@ Place this extracted folder in some place where you don't mind it. (ex.- "Docume
 3. Choose "Load unpacked" option.
 4. Find the extracted folder, "ElabExtension".
 5. Now test if the extension is working.
+
+## Usage
+Once on the question page, press any key on keyboard to activate the extension.
 
 ## How does it work?
 It works by disabling the CKeditor which is used by eLab. to do this, it simply removes the class attibute to disable the js related to CKeditor
